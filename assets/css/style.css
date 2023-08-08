@@ -498,20 +498,6 @@ section {
   padding-top: 10px;
 }
 
-.skills .skill-section-item {
-  padding-left: 10px;
-  padding-right: 30px;
-  width: 120px;
-  height: 130px;
-  align-items: center;
-  justify-content: center;
-}
-
-.skills .skill-item-image {
-  height: 70px;
-  width: 70px;
-}
-
 .skills .skill-item-title {
   font-size: 18px;
   font-weight: 700;
