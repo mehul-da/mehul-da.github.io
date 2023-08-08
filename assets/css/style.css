@@ -352,7 +352,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -436,8 +436,12 @@ section {
 }
 
 .about .content p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
+}
+
+.about .spacing {
+  padding-top: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -494,12 +498,12 @@ section {
   color: #45505b;
 }
 
-.skills .skill-section-items {
-  padding-top: 10px;
+.skills .skill-item {
+  padding-top: 15px;
 }
 
 .skills .skill-item-title {
-  font-size: 1.2vw;
+  font-size: 14px;
   font-weight: 700;
   margin-top: 10px;
   color: #45505b;
@@ -564,6 +568,15 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item .resume-item-position {
+  font-size: 18px;
+  font-weight: 500;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #0563bb;
@@ -1209,7 +1222,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 30px 0;
 }
 
 #footer .social-links {
@@ -1237,10 +1250,16 @@ section {
   text-decoration: none;
 }
 
-#footer .copyright {
+#footer .footer-note {
   margin: 0 0 5px 0;
+  font-size: 16px;
+}
+
+#footer .copyright {
+  margin: 0 0 3px 0;
+  font-size: 13px;
 }
 
 #footer .credits {
-  font-size: 13px;
+  font-size: 12px;
 }
